@@ -1,0 +1,40 @@
+.container{
+    margin-top: -20%;
+    padding-top: 10%;
+}
+
+body {
+    background-color: lightblue
+  }
+  
+  h1 {
+    text-shadow: 2px 2px #FF0000;
+  }
+  
+  h2 {
+    text-shadow: 2px 2px #FF0000;
+  }
+  
+  .header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #555;
+    
+  }
+  
+  .header h1 {
+    position: relative;
+    top: 18px;
+    left: 140px;
+    margin-top: -20%;
+    padding-top: 10%;
+  }
+  
+  .header h2 {
+    position: relative;
+    top: 18px;
+    left: 500px;
+  }
+  #imgcontainer { float:center; height: 250px; }
+  marquee { width:80% } 

@@ -1,0 +1,32 @@
+<html>
+
+<body background="https://media.istockphoto.com/id/867305872/photo/textures-and-background.jpg?s=612x612&w=0&k=20&c=8vtMHaYsrCDoZxzAlg3N9QHah7NTGZ2RkxN5y8EHYcY="> 
+	<section class="login">
+		<div class="login_box">
+			<div class="text-center" style="height: 1000px; width: 1000px;">
+				<div class="top_link"><a href="">
+						
+							Return_Home</a></div>
+				<div class="contact">
+					<form action="login" [formGroup]="loginForm" (ngSubmit)="onLogin()">
+						<h3>SIGN_IN</h3>
+						<input type="text" formControlName="userName" placeholder="USERNAME">
+						<input type="password" formControlName="password" placeholder="PASSWORD">
+						<button class="submit">LET'S_GO</button>
+					</form>
+				</div>
+			</div>
+			<div class="right">
+				<div class="right-text">
+					<marquee>
+						<h2></h2>
+					</marquee>
+					<h5></h5>
+				</div>
+
+			</div>
+		</div>
+	</section>
+</body>
+
+</html>

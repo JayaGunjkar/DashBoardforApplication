@@ -1,0 +1,8 @@
+
+<div  class="side-nav-content">
+    <div class="nav-list-item" *ngFor="let option of userOptions[0][userType]">
+        <button  (click)="navigateTo(option.path)">{{option.lable}}</button>
+      
+    </div>
+</div>
+

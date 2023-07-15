@@ -1,1 +1,19 @@
 <p>get-cibil works!</p>
+<h2 style="background-color: darkorange;">Request CIBIL Data</h2>
+<form>
+<!-- <form (ngSubmit)="submitCibilRequestForm()" #cibilRequestForm="ngForm"> -->
+  <div class="form-group">
+    <label for="fullName">Full Name:</label>
+    <input type="text" class="form-control" id="fullName" name="fullName"  required>
+  </div>
+  <div class="form-group">
+    <label for="panNumber">PAN Number:</label>
+    <input type="text" class="form-control" id="panNumber" name="panNumber"  required>
+  </div>
+  <div class="form-group">
+    <label for="dateOfBirth">Date of Birth:</label>
+    <input type="date" class="form-control" id="dateOfBirth" name="dateOfBirth"  required>
+  </div>
+  <br>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>

@@ -8,9 +8,7 @@
             <div class="card-body p-5">
               <h2 class="text-uppercase text-center mb-5">Emi_Calculator</h2>
 
-              <form action="emi" [formGroup]="emiReg" (ngSubmit)="createEmiData()">
-
-                
+              <form [formGroup]="emiReg" (ngSubmit)="createEmiData()">
 
                 <div class="form-outline mb-4">
                   <input type="email" formControlName="principal"  />

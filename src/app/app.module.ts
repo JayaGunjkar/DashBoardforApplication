@@ -19,6 +19,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { EmiCalculatorComponent } from './template/emi-calculator/emi-calculator.component';
 
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,6 +36,7 @@ import { EmiCalculatorComponent } from './template/emi-calculator/emi-calculator
     UserMenuComponent,
     EmailComponent,
     EmiCalculatorComponent,
+    
     
   ],
   imports: [

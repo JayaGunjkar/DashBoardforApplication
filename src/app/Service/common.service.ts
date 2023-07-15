@@ -27,4 +27,14 @@ export class CommonService {
   createEmi(e:any){
     return this.http.post("http://localhost:1234/CalculateEmi",e);
   }
+
+
+  loginCheck(username:string,password:string){
+return this.http.get("http://localhost:1234/logincheck/"+username+"/"+password);
+  }
+
+
+  getAllEnqury(){
+    return this.http.get("http://localhost:1234/getAllEnquiry");
+  }
 }

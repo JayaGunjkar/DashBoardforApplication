@@ -8,6 +8,7 @@ import { EmailRoutingModule } from './email-routing.module';
   declarations: [],
   imports: [
     CommonModule,
+    
     EmailRoutingModule
   ]
 })
